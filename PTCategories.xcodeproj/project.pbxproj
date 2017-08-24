@@ -14,6 +14,13 @@
 		598F61441F4D63ED0036014B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598F61421F4D63ED0036014B /* LaunchScreen.storyboard */; };
 		598F61471F4D63ED0036014B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F61461F4D63ED0036014B /* main.m */; };
 		598F61511F4D6B190036014B /* NSTimer+PTBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F61501F4D6B190036014B /* NSTimer+PTBlock.m */; };
+		598F61541F4E66A40036014B /* NSObject+PTIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F61531F4E66A40036014B /* NSObject+PTIntrospection.m */; };
+		598F61571F4E6FC20036014B /* UIView+PTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F61561F4E6FC20036014B /* UIView+PTFrame.m */; };
+		598F615A1F4E71880036014B /* UIColor+PTHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F61591F4E71880036014B /* UIColor+PTHex.m */; };
+		598F615D1F4E72020036014B /* UIDevice+PTExtents.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F615C1F4E72020036014B /* UIDevice+PTExtents.m */; };
+		598F61601F4E742F0036014B /* NSString+PTExtents.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F615F1F4E742F0036014B /* NSString+PTExtents.m */; };
+		598F61631F4E78CC0036014B /* UIScrollView+PTExtents.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F61621F4E78CC0036014B /* UIScrollView+PTExtents.m */; };
+		598F61661F4E7DFB0036014B /* NSThread+PTExtents.m in Sources */ = {isa = PBXBuildFile; fileRef = 598F61651F4E7DFB0036014B /* NSThread+PTExtents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,20 @@
 		598F61461F4D63ED0036014B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		598F614F1F4D6B190036014B /* NSTimer+PTBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PTBlock.h"; sourceTree = "<group>"; };
 		598F61501F4D6B190036014B /* NSTimer+PTBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PTBlock.m"; sourceTree = "<group>"; };
+		598F61521F4E66A40036014B /* NSObject+PTIntrospection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PTIntrospection.h"; sourceTree = "<group>"; };
+		598F61531F4E66A40036014B /* NSObject+PTIntrospection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PTIntrospection.m"; sourceTree = "<group>"; };
+		598F61551F4E6FC20036014B /* UIView+PTFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+PTFrame.h"; sourceTree = "<group>"; };
+		598F61561F4E6FC20036014B /* UIView+PTFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+PTFrame.m"; sourceTree = "<group>"; };
+		598F61581F4E71880036014B /* UIColor+PTHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+PTHex.h"; sourceTree = "<group>"; };
+		598F61591F4E71880036014B /* UIColor+PTHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PTHex.m"; sourceTree = "<group>"; };
+		598F615B1F4E72020036014B /* UIDevice+PTExtents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+PTExtents.h"; sourceTree = "<group>"; };
+		598F615C1F4E72020036014B /* UIDevice+PTExtents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+PTExtents.m"; sourceTree = "<group>"; };
+		598F615E1F4E742F0036014B /* NSString+PTExtents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PTExtents.h"; sourceTree = "<group>"; };
+		598F615F1F4E742F0036014B /* NSString+PTExtents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+PTExtents.m"; sourceTree = "<group>"; };
+		598F61611F4E78CC0036014B /* UIScrollView+PTExtents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PTExtents.h"; sourceTree = "<group>"; };
+		598F61621F4E78CC0036014B /* UIScrollView+PTExtents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PTExtents.m"; sourceTree = "<group>"; };
+		598F61641F4E7DFB0036014B /* NSThread+PTExtents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSThread+PTExtents.h"; sourceTree = "<group>"; };
+		598F61651F4E7DFB0036014B /* NSThread+PTExtents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSThread+PTExtents.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,12 @@
 			children = (
 				598F614F1F4D6B190036014B /* NSTimer+PTBlock.h */,
 				598F61501F4D6B190036014B /* NSTimer+PTBlock.m */,
+				598F61521F4E66A40036014B /* NSObject+PTIntrospection.h */,
+				598F61531F4E66A40036014B /* NSObject+PTIntrospection.m */,
+				598F615E1F4E742F0036014B /* NSString+PTExtents.h */,
+				598F615F1F4E742F0036014B /* NSString+PTExtents.m */,
+				598F61641F4E7DFB0036014B /* NSThread+PTExtents.h */,
+				598F61651F4E7DFB0036014B /* NSThread+PTExtents.m */,
 			);
 			path = Foudation;
 			sourceTree = "<group>";
@@ -88,6 +115,14 @@
 		598F614E1F4D6A1B0036014B /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				598F61551F4E6FC20036014B /* UIView+PTFrame.h */,
+				598F61561F4E6FC20036014B /* UIView+PTFrame.m */,
+				598F61581F4E71880036014B /* UIColor+PTHex.h */,
+				598F61591F4E71880036014B /* UIColor+PTHex.m */,
+				598F615B1F4E72020036014B /* UIDevice+PTExtents.h */,
+				598F615C1F4E72020036014B /* UIDevice+PTExtents.m */,
+				598F61611F4E78CC0036014B /* UIScrollView+PTExtents.h */,
+				598F61621F4E78CC0036014B /* UIScrollView+PTExtents.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -162,10 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598F61571F4E6FC20036014B /* UIView+PTFrame.m in Sources */,
+				598F61661F4E7DFB0036014B /* NSThread+PTExtents.m in Sources */,
 				598F61511F4D6B190036014B /* NSTimer+PTBlock.m in Sources */,
+				598F61601F4E742F0036014B /* NSString+PTExtents.m in Sources */,
 				598F613C1F4D63ED0036014B /* ViewController.m in Sources */,
 				598F61471F4D63ED0036014B /* main.m in Sources */,
+				598F61631F4E78CC0036014B /* UIScrollView+PTExtents.m in Sources */,
 				598F61391F4D63ED0036014B /* AppDelegate.m in Sources */,
+				598F61541F4E66A40036014B /* NSObject+PTIntrospection.m in Sources */,
+				598F615A1F4E71880036014B /* UIColor+PTHex.m in Sources */,
+				598F615D1F4E72020036014B /* UIDevice+PTExtents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
